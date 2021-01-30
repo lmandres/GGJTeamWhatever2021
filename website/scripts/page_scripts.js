@@ -8,7 +8,7 @@ let local_index;
 function getLocation(location_span, site_data, site_index) {
 
     local_data = site_data;
-    local_index = site_index;
+    local_index = (site_index ? site_index : 0);
     myLocation = location_span;
 
     if (navigator.geolocation) {
