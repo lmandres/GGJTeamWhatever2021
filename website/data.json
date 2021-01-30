@@ -47,7 +47,54 @@
             "hint": "In Midtown, find the gentleman and the Scholar",
             "next": "Midtown Scholar"
 
-        }      
-        
+        },
+        { 
+            "site_name": "Midtown Scholar",
+            "coordinates": {
+                "latitude": 40.26828, 
+                "longitude": -76.88810
+            },
+            
+            "description":  "The marquee is above the doors is ablaze with neon blue and white light. Their is a large gathering of people in the bookstore. People are listening to a man leading a discussion, some are browsing through the stacks, and some are just there to enjoy a cup of coffee.<br><p>As you search around you notice a display of books, one of the books looks like it has a piece of paper sticking out from between it's pages. You flip the book open and take the note, it reads:",
+            "hint": "PA always said that those that COURT with criminal behavior are in SUPREME judgement.",
+            "next": "The Supreme Court of Pennsylvania"
+
+        },
+        { 
+            "site_name": "The Supreme Court of Pennsylvania",
+            "coordinates": {
+                "latitude": 40.26683, 
+                "longitude": -76.88271
+            },
+            
+            "description":  "The Supreme Court of Pennsylvania is the highest court in the Commonwealth and the oldest appellate court in the nation.<br><p>The building is white with a rounded front filled with large windows. Near the side walk, in the flower beds, you find a small wooden box. Inside you find a note that reads:",
+            "hint": "Go to where those that have been RECIPIENTS of the highest HONOR in the land have been MEMORIALized",
+            "next": "Pennsylvania Medal of Honor Recipients Memorial"
+
+        },
+        { 
+            "site_name":"Pennsylvania Medal of Honor Recipients Memorial",
+            "coordinates": {
+                "latitude": 40.26261, 
+                "longitude": -76.88057
+            },
+            
+            "description":  "",
+            "hint": "",
+            "next": "Harrisburg University of Science and Technology"
+
+        },
+        { 
+            "site_name":"Harrisburg University of Science and Technology",
+            "coordinates": {
+                "latitude": 40.26214, 
+                "longitude": -76.88021
+            },
+            
+            "description":  "",
+            "hint": "",
+            "next": "Finished"
+
+        }
     ]
 }
