@@ -25,6 +25,31 @@
 
 </body>
 
+    <script>
+
+        var radiusMiles = 0.001;
+        var myLocation = document.getElementById("mylocation");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                myLocation.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+
+            let distance = GreatCircle.distance(40.26840, -76.89332, position.coords.latitude, position.coords.longitude, "MI");
+
+            if (distance < radiusMiles) {
+                myLocation.innerHTML = "<a href=\"ymca.html\">Click Here</a>.";
+            } else {
+                myLocation.innerHTML = "You are " + distance + " miles away.";
+            }
+        }
+    </script>
+
 </html>
 
 

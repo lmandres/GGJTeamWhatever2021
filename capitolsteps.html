@@ -1,7 +1,7 @@
 <html>
 
 <head>
-
+    <script src="GreatCircle.js"></script>
 </head>
 
 <body>
@@ -9,6 +9,13 @@
     <p>
         Capitol Steps 40.26401, -76.88480
     </p>
+
+    <p>
+        My Location:
+        <span id="mylocation"></span>
+    </p>
+
+    <button onclick="getLocation();">Check In</button>
 
     <p>
         When you get to the steps of the Capitol, you find a notebook. The notebook
@@ -41,5 +48,30 @@
     </ul>
 
 </body>
+
+    <script>
+
+        var radiusMiles = 0.001;
+        var myLocation = document.getElementById("mylocation");
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                myLocation.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+
+            let distance = GreatCircle.distance(40.26368, -76.88666, position.coords.latitude, position.coords.longitude, "MI");
+
+            if (distance < radiusMiles) {
+                myLocation.innerHTML = "<a href=\"stpatrick.html\">Click Here</a>.";
+            } else {
+                myLocation.innerHTML = "You are " + distance + " miles away.";
+            }
+        }
+    </script>
 
 </html>
