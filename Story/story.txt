@@ -53,5 +53,5 @@ At the base of the monument you see a bouquet of flowers. You pick it up
 and inspect the bundle. The scent fills you nose as you pull out a small 
 card. The card reads:
 
-    "In Midtown, find the gentleman and the scholar"
+    "In Midtown, find the gentleman and the Scholar"
 
