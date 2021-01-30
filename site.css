@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Handwriting-font";
+    src: url(./assets/Handwriting.ttf) format("TrueType");
+}
+#hint { 
+    font-family: "Handwriting-font", Verdana, Tahoma;
+    font-size: 32px;
+}
