@@ -13,11 +13,11 @@
             <script type="text/javascript" language="javascript" src="./scripts/page_scripts.js"></script>
     </head>
 
-    <body onload("console.log(site = params.site == null ? 0 : params.site);">
+    <body>
         <h2 id="name">name</h2>
         <p>
             My Location: <span id="location"></span><br />
-            <button onclick="getLocation(document.getElementById('location'), site_data);">Check In</button>
+            <button onclick="getLocation(document.getElementById('location'), site_data, params.site);">Check In</button>
         </p>
         <p id="description">description</p>
         <p id="hint">hint</p>
