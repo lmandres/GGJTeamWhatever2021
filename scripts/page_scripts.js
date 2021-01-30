@@ -24,9 +24,9 @@ function showPosition(position) {
     let distance = radius + 100;
    
 
-    if (local_index < local_data["sites"].length+1) {
+    if (local_index < local_data["sites"].length-1) {
 
-        next_site = local_data[local_index+1];
+        next_site = local_data["sites"][local_index+1];
         distance = GreatCircle.distance(next_site["coordinates"]["latitude"], next_site["coordinates"]["longitude"], position.coords.latitude, position.coords.longitude, "FT");
 
         if (distance < radius) {
