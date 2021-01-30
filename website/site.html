@@ -1,7 +1,6 @@
 <html>
     <head>
         <title>Where's Mason</title>
-        <head>
             
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,13 +9,18 @@
 
             <script type="text/javascript" language="javascript" src="./scripts/p5js/p5.min.js"></script>
             <script type="text/javascript" language="javascript" src="./scripts/site_loader.js"></script>
-        </head>
-
-        <body>
-            <h2 id="name">name</h2>
-            <p id="description">description</p>
-            <p id="hint">hint</p>
-            <div id="next"></div>
-        </body>
+            <script type="text/javascript" language="javascript" src="./scripts/GreatCircle.js"></script>
+            <script type="text/javascript" language="javascript" src="./scripts/page_scripts.js"></script>
     </head>
+
+    <body>
+        <h2 id="name">name</h2>
+        <p>
+            My Location: <span id="location"></span><br />
+            <button onclick="getLocation(document.getElementById('location'), site_data);">Check In</button>
+        </p>
+        <p id="description">description</p>
+        <p id="hint">hint</p>
+        <div id="next"></div>
+    </body>
 </html>
