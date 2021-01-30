@@ -6,6 +6,8 @@
     font-family: "Handwriting-font", Verdana, Tahoma;
     font-size: 32px;
     margin: 25px;
+    background-color: rgb(252, 246, 195);
+    border-radius: 15px;
 }
 
 #name {
@@ -38,10 +40,10 @@ body {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color #4caf50;
+    background-color: #4CAF50;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 0px #999;   
+    box-shadow: 0 9px #999;   
 }
 
 .button:hover {background-color: #3e8e41;}
