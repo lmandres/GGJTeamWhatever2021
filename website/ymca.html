@@ -1,28 +1,43 @@
 <html>
 
 <head>
-
+    <script src="GreatCircle.js"></script>
 </head>
 
 <body>
-    <p> Holocaust Monument 40.26840, -76.89332</p>
+    <p>East Shore Branch YMCA 40.26392, -76.88929</p>
 
-    <p>The Holocaust Monument is a tribute to remember the structure of iron and
-    stone. It is a reminder of one of the darkest chapters in history and a
-    reminder to "Never Again" allow it to happen again.</p>
+    <p>
+        My Location:
+        <span id="mylocation"></span>
+    </p>
 
-    <p>At the base of the monument you see a bouquet of flowers. You pick it up
-    and inspect the bundle. The scent fills you nose as you pull out a small
-    card. The card reads:</p>
+    <button onclick="getLocation();">Check In</button>
 
-    <p>"In Midtown, find the gentleman and the Scholar"</p>
+    <p>
+        The YMCA is old bridge brick building that was build in 1933. It is designed
+        in the Italian Romanesque style and as you can see there have been additions 
+        over the years.  Mason is no where to be seen. 
+    </p>
+    
+    <p>
+        As you look around, someone comes out of the building and approaches you. 
+        They are dress in athletic cloths, their face is flush from their work out. 
+        They smile as they come to a stop and ask "Are you looking for Mason? He said
+        to give you this."  They reach out with a note.  You take it and open it 
+        and read:
+    </p>
+    
+        <p>
+            "Go to the 'Never again' monument. Make sure no one follows"
+        </p>
 
 
 </body>
 
     <script>
 
-        var radiusMiles = 0.001;
+        var radius = 20;
         var myLocation = document.getElementById("mylocation");
 
         function getLocation() {
@@ -35,12 +50,12 @@
 
         function showPosition(position) {
 
-            let distance = GreatCircle.distance(40.26840, -76.89332, position.coords.latitude, position.coords.longitude, "MI");
+            let distance = GreatCircle.distance(40.26840, -76.89332, position.coords.latitude, position.coords.longitude, "FT");
 
-            if (distance < radiusMiles) {
-                myLocation.innerHTML = "<a href=\"ymca.html\">Click Here</a>.";
+            if (distance < radius) {
+                myLocation.innerHTML = "<a href=\"holocaust-monument.html\">Click Here</a>.";
             } else {
-                myLocation.innerHTML = "You are " + distance + " miles away.";
+                myLocation.innerHTML = "You are " + distance + " feet away.";
             }
         }
     </script>

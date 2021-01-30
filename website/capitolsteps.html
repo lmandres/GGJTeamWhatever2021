@@ -51,7 +51,7 @@
 
     <script>
 
-        var radiusMiles = 0.001;
+        var radius = 20;
         var myLocation = document.getElementById("mylocation");
 
         function getLocation() {
@@ -64,12 +64,12 @@
 
         function showPosition(position) {
 
-            let distance = GreatCircle.distance(40.26368, -76.88666, position.coords.latitude, position.coords.longitude, "MI");
+            let distance = GreatCircle.distance(40.26368, -76.88666, position.coords.latitude, position.coords.longitude, "FT");
 
-            if (distance < radiusMiles) {
+            if (distance < radius) {
                 myLocation.innerHTML = "<a href=\"stpatrick.html\">Click Here</a>.";
             } else {
-                myLocation.innerHTML = "You are " + distance + " miles away.";
+                myLocation.innerHTML = "You are " + distance + " feet away.";
             }
         }
     </script>
