@@ -1,0 +1,33 @@
+Mason Smith is missing. He disappeared about a week ago. Mason loved 
+history and he told you that he was on his his way to visit Harrisburg 
+Pennsylvania to learn about its history.
+
+He was reported missing, and so far the police have had no luck finding him.
+Today, you received a message on your phone that said:
+
+    "They are after me."
+    "I can't let them find me"
+    "Meet me at the Capitol Steps, hurry.."
+
+Capitol Steps 40.26401, -76.88480
+
+When you get to the steps of the Capitol, you find a notebook. The notebook
+old and as you flip through the pages, you recognize Mason's handwriting. On 
+the inside of the back cover you find something scribbled by Mason, but it is 
+sloppy and looks like it was written in a hurry:
+
+    "If you're reading this, go to the church that's also a holiday"
+
+St. Patrick Cathedral 40.26368, -76.88666
+
+Upon arriving in front of St. Patrick Catherdral you do not see anyone 
+matching Mason's description. Looking around you notice a flyer on a building
+wall. It is a religious flying that reads "Are you lost and looking to 
+find your way to salvation?"  It is filled with the excepted religous info
+about finding Jesus, but on the back of the flyer, you once again see Mason's
+handwriting it reads:
+
+    "Young man, there's no need to feel down"
+
+East Shore Branch YMCA 40.26392, -76.88929
+
