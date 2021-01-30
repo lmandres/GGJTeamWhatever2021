@@ -20,14 +20,23 @@ function getLocation(location_span, site_data, site_index) {
 
 function showPosition(position) {
 
-    let distance = GreatCircle.distance(40.26392, -76.88929, position.coords.latitude, position.coords.longitude, "FT");
+    let next_site = null;
+    let distance = radius + 100;
+   
 
-    console.log(local_data);
-    console.log(local_data[local_index]);
+    if (local_index < len(local_data["sites"])-1) {
 
-    if (distance < radius) {
-        myLocation.innerHTML = "<a href=\"ymca.html\">Click Here</a>.";
+        next_site = local_data[local_index+1];
+        distance = GreatCircle.distance(next_site["coordinates"]["latitude"], next_site["coordinates"]["longitude"], position.coords.latitude, position.coords.longitude, "FT");
+
+        if (distance < radius) {
+            myLocation.innerHTML = "<a href=\"site.html?site=" + (local_index+1) + "\">Click Here</a>.";
+        } else {
+            myLocation.innerHTML = "You are " + distance.toFixed(2) + " feet away.";
+        }
+
     } else {
-        myLocation.innerHTML = "You are " + distance.toFixed(2) + " feet away.";
+
+        myLocation.innerHTML = "You have found Mason Smith!!!";
     }
 }
