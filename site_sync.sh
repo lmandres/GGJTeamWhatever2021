@@ -2,13 +2,14 @@
 
 if [ -z "$1" ]; then
     echo "ERROR: Please provide commit message."
+    exit 1
 fi
 
 curr_dir=$(pwd)
-main_repo="~/git/GGJTeamWhatever2021/website"
-page_repo="~/git/lmandres.github.io/GGJTeamWhatever2021"
+main_repo="~/develop/git/GGJTeamWhatever2021/website/"
+page_repo="~/develop/git/lmandres.github.io/GGJTeamWhatever2021"
 
-rsync "$main_repo" "$page_repo" 
+rsync -r "$main_repo" "$page_repo" 
 cd "$page_repo"
 git add .
 git commit -m "$1"
