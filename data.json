@@ -3,8 +3,8 @@
         { 
             "site_name": "Capitol Steps",
             "coordinates": {
-                "longitude": 40.26401,
-                "latitude": -76.88480
+                "latitude": 40.26401,
+                "longitude": -76.88480
             },
                         
             "description":  "When you get to the steps of the Capitol, you find a notebook. The notebook old and as you flip through the pages, you recognize Mason's handwriting. On the inside of the back cover you find something scribbled by Mason, but it is sloppy and looks like it was written in a hurry:",
@@ -15,8 +15,8 @@
         { 
             "site_name": "St. Patrick Cathedral",
             "coordinates": {
-                "longitude": 40.26368,
-                "latitude": -76.88666
+                "latitude": 40.26368,
+                "longitude": -76.88666
             },
             
             "description":  "Upon arriving in front of St. Patrick Cathedral you do not see anyone matching Mason's description. Looking around you notice a flyer on a building wall. It is a religious flying that reads \"Are you lost and looking to find your way to salvation?\"  It is filled with the excepted religious info about finding Jesus, but on the back of the flyer, you once again see Mason's handwriting it reads:",
@@ -27,8 +27,8 @@
         { 
             "site_name": "East Shore Branch YMCA",
             "coordinates": {
-                "longitude": 40.26392,
-                "latitude": -76.88929
+                "latitude": 40.26392,
+                "longitude": -76.88929
             },
             
             "description":  "The YMCA is old bridge brick building that was build in 1933. It is designed in the Italian Romanesque style and as you can see there have been additions over the years.  Mason is no where to be seen. <br><p>As you look around, someone comes out of the building and approaches you. They are dress in athletic cloths, their face is flush from their work out. They smile as they come to a stop and ask \"Are you looking for Mason? He said to give you this.\"  They reach out with a note.  You take it and open it and read:</p>",
@@ -39,8 +39,8 @@
         { 
             "site_name": "Holocaust Monument",
             "coordinates": {
-                "longitude": 40.26840, 
-                "latitude": -76.89332
+                "latitude": 40.26840, 
+                "longitude": -76.89332
             },
             
             "description":  "The Holocaust Monument is a tribute to remember the structure of iron and stone. It is a reminder of one of the darkest chapters in history and a reminder to \"Never Again\" allow it to happen again. <br><p>At the base of the monument you see a bouquet of flowers. You pick it up and inspect the bundle. The scent fills you nose as you pull out a small card. The card reads:</p>",
