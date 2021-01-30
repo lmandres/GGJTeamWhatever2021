@@ -15,12 +15,15 @@
 
     <body>
         <h2 id="name">name</h2>
-        <p>
-            My Location: <span id="location"></span><br />
-            <button onclick="getLocation(document.getElementById('location'), site_data, params.site);">Check In</button>
-        </p>
+
         <p id="description">description</p>
         <p id="hint">hint</p>
+        <p id="mylocation">
+            My Location: <span id="location"></span>
+            <br />
+            <br />
+            <button onclick="getLocation(document.getElementById('location'), site_data, params.site);">Check In</button>
+        </p>
         <div id="next"></div>
     </body>
 </html>

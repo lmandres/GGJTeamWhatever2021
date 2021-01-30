@@ -28,6 +28,6 @@ function showPosition(position) {
     if (distance < radius) {
         myLocation.innerHTML = "<a href=\"ymca.html\">Click Here</a>.";
     } else {
-        myLocation.innerHTML = "You are " + distance + " feet away.";
+        myLocation.innerHTML = "You are " + distance.toFixed(2) + " feet away.";
     }
 }
