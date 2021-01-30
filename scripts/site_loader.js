@@ -3,8 +3,8 @@ let site_data;
 let params;
 
 function preload () {
-    site_data = loadJSON("data.json");
     params = getURLParams();
+    site_data = loadJSON("data.json");
 }
 
 function setup() {
