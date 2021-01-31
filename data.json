@@ -3,7 +3,7 @@
         { 
             "site_name": "Capitol Steps",
             "coordinates": {
-                "latitude": 40.26401,
+                "latitude": 40.26398,
                 "longitude": -76.88480
             },
                         
@@ -79,8 +79,8 @@
                 "longitude": -76.88057
             },
             
-            "description":  "",
-            "hint": "",
+            "description":  "A grove of trees flanks the grounds where the name of each individual with the date and place of service is noted on a stone in the ground. As you walk along you notice that on one of the \"Remember\" benches someone has left a small statue of a soldier. You pick it up and flip it over, there is a message engraved on the bottom:",
+            "hint": "It's all fun and GAMES, as we JAM at the University",
             "next": "Harrisburg University of Science and Technology"
 
         },
