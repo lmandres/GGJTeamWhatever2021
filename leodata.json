@@ -1,0 +1,64 @@
+{
+    "sites": [
+        { 
+            "site_name": "Outside of Fence",
+            "coordinates": {
+                "latitude": 40.26401,
+                "longitude": -76.88480
+            },
+                        
+            "description":  "You were on your way to get the mail and went out to the mailbox.  As you were opening your mail, you noticed that your dog got out of the fence.  This is terrible!!!  You scream, \"I don't want to lose my dog!\"  You then run off after it.  Where though?",
+            "hint": "If you're reading this, go to the end of the block"
+        },
+        { 
+            "site_name": "Southwest Corner of the Block",
+            "coordinates": {
+                "latitude": 40.26368,
+                "longitude": -76.88666
+            },
+            
+            "description":  "You saw your dog run towards the southwest corner of the block.  You ran after it.  When it got to the end of the block, your dog just stopped, waiting for you to catch up and wagging its tail.  You scream, \"Do you think this is a game?!?!\"  Actually, yes, your dog thinks it's a game.  Then you watch as you start to catch up to the southwest corner of your block as it starts running across the street again!",
+            "hint": "Go east!"
+        },
+        { 
+            "site_name": "Southeast Corner of the Block",
+            "coordinates": {
+                "latitude": 40.26392,
+                "longitude": -76.88929
+            },
+            
+            "description":  "As you were about to catch up to your dog, it took off and started running up the street.  You're still running, but for some reason, your dog is in better shape than your are.  Stupid dog.  Anyway, you see your dog start running north.  Where do you go?",
+            "hint": "Go to the north"
+        },
+        { 
+            "site_name": "Northeast Corner of the Block",
+            "coordinates": {
+                "latitude": 40.26840, 
+                "longitude": -76.89332
+            },
+            
+            "description":  "Your dog stopped again, this time at the northeast corner of the block.  This time, it got far ahead of you, and, as if taunting you, it took time out of its day to poop.  So, it pooped, and you're still running.  As you start to get a whiff of the stench that it left behind, it takes off again, this time heading west.",
+            "hint": "Your dog went west"
+        },
+        { 
+            "site_name": "Northwest Corner of the Block",
+            "coordinates": {
+                "latitude": 40.26840, 
+                "longitude": -76.89332
+            },
+            
+            "description":  "As your dog gets to the northwest corner of the block, you see your neighbor grab it by the collar.  Somewhat relieved, you rush over to take your dog from your neighbor.  You thank your neighbor profusely.  They even offer to pick up the poop that your dog left behind as you were chasing it.  You decide that your neighbor is overly nice, but whatever.  But, where do you go from here?",
+            "hint": "Take your dog home, dummy"
+        },
+        { 
+            "site_name": "Home",
+            "coordinates": {
+                "latitude": 40.26840, 
+                "longitude": -76.89332
+            },
+            
+            "description":  "You walk your dog home, grabbing it by the collar, because you didn't have time to grab a leash before you chased after your dog.  The walk home is uneventful, except you are mad at your dog.  Eventually you get to your front gate.  The dog walks in, and it is wagging its tail.  You may be mad, but your dog is not.",
+            "hint": "This should not display."
+        }
+    ]
+}
