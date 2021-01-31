@@ -20,13 +20,13 @@
     text-align: center;
 }
 
-#name {
+#name, h1 {
     font-family: "Collegiate-font", Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     text-align: center;
 }
 
-#description {
+#description, p {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     
