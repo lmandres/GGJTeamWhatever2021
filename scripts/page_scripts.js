@@ -1,5 +1,5 @@
 
-let radius = 20;
+let radius = 100;
 
 let myLocation;
 let local_data;
