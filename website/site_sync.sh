@@ -6,10 +6,10 @@ if [ -z "$1" ]; then
 fi
 
 curr_dir=$(pwd)
-main_repo="/c/Users/leoma/develop/git/GGJTeamWhatever2021/website/"
+main_repo="/c/Users/leoma/develop/git/GGJTeamWhatever2021/website"
 page_repo="/c/Users/leoma/develop/git/lmandres.github.io/GGJTeamWhatever2021"
 
-rsync -r "$main_repo" "$page_repo"
+cp -r "$main_repo/*" "$page_repo/"
 
 cd "$main_repo"
 git add .
