@@ -62,7 +62,19 @@ body {
 .button:hover {background-color: #27455e;}
 
 .button:active {
-    background-color: #3e8e41;
+    background-color:#1c3142;;
     box-shadow:  0 5px #666;
     transform: translateY(4px);
+}
+
+#license-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 90px; 
+}
+
+#license-text {
+    font-size: 10px;
+    text-align: center;
 }
