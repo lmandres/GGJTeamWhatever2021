@@ -15,7 +15,7 @@
         { 
             "site_name": "St. Patrick Cathedral",
             "coordinates": {
-                "latitude": 40.26368,
+                "latitude": 40.26363,
                 "longitude": -76.88666
             },
             
@@ -91,7 +91,7 @@
                 "longitude": -76.88021
             },
             
-            "description":  "",
+            "description":  "Harrisburg University was founded to address the need for increased educational opportunities in STEM related fields.  HU has hosted the Global Game Jam",
             "hint": "",
             "next": "Finished"
 
